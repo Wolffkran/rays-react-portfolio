@@ -5,10 +5,10 @@ body, h1, h2, h3, p {
 }
 
 body {
+  background-color: #2b2b2b; /* Set your desired dark background color */
   font-family: 'Arial', sans-serif;
   line-height: 1.6;
-  background-color: #f8f8f8;
-  color: #333;
+  color: #fff; /* Set text color for better contrast on dark background */
 }
 
 .container {
@@ -67,8 +67,8 @@ h2 {
 
 /* Portfolio styles */
 .project {
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #2b2b2b;
+  border: 1px solid #333;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -95,7 +95,7 @@ textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   border-radius: 5px;
 }
 
@@ -127,8 +127,8 @@ button:hover {
 
 .project-card {
   max-width: 300px; /* Adjust the maximum width as needed */
-  background-color: #fff;
-  border: 1px solid #ddd;
+  background-color: #2b2b2b;
+  border: 1px solid #333;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -137,11 +137,13 @@ button:hover {
 
 .project-card h3 {
   font-size: 1.5em;
+  color: #fff;
 }
 
 .project-card p {
   margin-top: 10px;
   font-size: 1em;
+  color: #ccc;
 }
 
 .project-links {
@@ -174,7 +176,7 @@ button:hover {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   border-radius: 5px;
 }
 
@@ -193,7 +195,7 @@ button:hover {
 }
 
 .footer {
-  background-color: #f8f9fa; /* Set your desired background color */
+  background-color: #2b2b2b; /* Set your desired background color */
   padding: 20px; /* Adjust the padding as needed */
   margin-top: auto; /* Push the footer to the bottom */
 }
@@ -211,27 +213,55 @@ button:hover {
   gap: 10px; /* Adjust the gap between social links as needed */
 }
 
-
 .about-me {
   text-align: center;
   padding: 40px 20px; /* Adjust padding as needed */
-  background-color: #fff; /* Set your desired background color */
-  border: 1px solid #ddd;
+  background-color: #2b2b2b; /* Set your desired background color */
+  border: 1px solid #333;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 40px; /* Adjust margin as needed */
 }
 
-.profile-image img {
-  width: 150px; /* Set your desired width for the profile image */
-  height: auto;
-  border-radius: 50%;
-  margin-bottom: 20px; /* Adjust margin as needed */
-}
-
-.about-me p {
-  max-width: 600px; /* Adjust max-width as needed */
-  margin: 0 auto;
-  font-size: 1.2em; /* Adjust font size as needed */
-  line-height: 1.6;
-}
+  .profile-image img {
+    width: 150px; /* Set your desired width for the profile image */
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .about-me p {
+    max-width: 600px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    font-size: 1.2em; /* Adjust font size as needed */
+    line-height: 1.6;
+    color: #ccc;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #2b2b2b; /* Set your desired background color */
+    padding: 20px; /* Adjust the padding as needed */
+    margin-top: auto; /* Push the footer to the bottom */
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 10px; /* Adjust the gap between social links as needed */
+  }
+  
+  .social-links a img {
+    width: 32px; /* Set your desired width for social icons */
+    height: 32px; /* Set your desired height for social icons */
+  }
+  
+  .resume {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2b2b2b;
+    border: 1px solid #333;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ccc;
+  }
