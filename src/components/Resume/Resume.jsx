@@ -6,7 +6,8 @@ const Resume = () => {
   return (
     <div className="resume">
       <h2>Resume</h2>
-      <p>Download my resume: <a href="/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer">Resume.pdf</a></p>
+      <p>Download my resume: <a href={process.env.PUBLIC_URL + '/components/Resume/Raymond_Lacrouts_Resume.PDF'} download="Raymond_Lacrouts_Resume.PDF" target="_blank" rel="noopener noreferrer">Resume.pdf</a></p>
+
 
       <h3>Skills</h3>
       <ul>
