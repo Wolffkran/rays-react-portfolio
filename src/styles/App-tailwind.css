@@ -212,3 +212,26 @@ button:hover {
 }
 
 
+.about-me {
+  text-align: center;
+  padding: 40px 20px; /* Adjust padding as needed */
+  background-color: #fff; /* Set your desired background color */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px; /* Adjust margin as needed */
+}
+
+.profile-image img {
+  width: 150px; /* Set your desired width for the profile image */
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.about-me p {
+  max-width: 600px; /* Adjust max-width as needed */
+  margin: 0 auto;
+  font-size: 1.2em; /* Adjust font size as needed */
+  line-height: 1.6;
+}
