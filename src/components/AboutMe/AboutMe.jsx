@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h2>About Me</h2>
       <div className="profile-image">
         {/* Add your photo or avatar here */}
-        <img src="/images/profile-photo.jpg" alt="Your Name" />
+        <img src="/images/profile-photo.jpg" alt="Ray" />
       </div>
       <p>
         Hi, I'm Ray! I am a passionate web developer with experience in building

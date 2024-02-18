@@ -5,10 +5,10 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="social-links">
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/Wolffkran" target="_blank" rel="noopener noreferrer">
             <img src="/images/github-icon.png" alt="GitHub" />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/raymond-lacrouts-30527a257/" target="_blank" rel="noopener noreferrer">
             <img src="/images/linkedin-icon.png" alt="LinkedIn" />
           </a>
           {/* Add more social links as needed */}
