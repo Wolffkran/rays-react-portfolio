@@ -191,3 +191,24 @@ button:hover {
 .contact-form button:hover {
   background-color: #3367d6;
 }
+
+.footer {
+  background-color: #f8f9fa; /* Set your desired background color */
+  padding: 20px; /* Adjust the padding as needed */
+  margin-top: auto; /* Push the footer to the bottom */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: space-between;
+  height: 100%;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px; /* Adjust the gap between social links as needed */
+}
+
+
