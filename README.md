@@ -4,7 +4,7 @@ This is my personal web developer portfolio built with React. The portfolio show
 
 ## Live Demo
 
-[Live Demo on Netlify](#https://rays-react-portfolio.netlify.app)
+[Live Demo on Netlify](https://rays-react-portfolio.netlify.app)
 
 ## Features
 
